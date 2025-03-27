@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  banco:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: banco-api-pos-web-2
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Senh@123
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - api_pos_web_2_data:/var/opt/mssql
+
+volumes:
+  api_pos_web_2_data:
