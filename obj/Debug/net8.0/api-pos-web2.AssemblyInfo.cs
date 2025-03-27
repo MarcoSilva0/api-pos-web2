@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api-pos-web2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3809c9a9c8e559b75f5919c381756ef6ae884add")]
 [assembly: System.Reflection.AssemblyProductAttribute("api-pos-web2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api-pos-web2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
