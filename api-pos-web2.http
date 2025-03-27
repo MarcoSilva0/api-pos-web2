@@ -1,0 +1,6 @@
+@api_pos_web2_HostAddress = http://localhost:5222
+
+GET {{api_pos_web2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

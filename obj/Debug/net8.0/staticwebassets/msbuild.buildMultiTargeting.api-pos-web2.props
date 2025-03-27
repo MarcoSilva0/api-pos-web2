@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\api-pos-web2.props" />
+</Project>
